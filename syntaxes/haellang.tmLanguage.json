@@ -12,7 +12,13 @@
 			"include": "#operators"
 		},
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#constants-and-special-vars"
+		},
+		{
+			"include": "#punctuation"
 		}
 	],
 	"repository": {
@@ -64,6 +70,14 @@
 					"match": "(?<!\\$)\\b(klart-det|ente-rekti)\\b(?!\\$)"
 				}
 
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.block.haellang",
+					"match": "\\#[^\\#]*\\#"
+				}
 			]
 		},
 		"punctuation": {
