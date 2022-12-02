@@ -1,14 +1,20 @@
 {
+
+    "wordPattern": "([a-zA-ZæøåÆØÅ_][a-zA-ZæøåÆØÅ_0-9]*\\-)*[a-zA-ZæøåÆØÅ_][a-zA-ZæøåÆØÅ_0-9]*",
     "comments": {
-        // symbol used for single line comment. Remove this entry if your language does not support line comments
-        "lineComment": "//",
         // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
-        "blockComment": [ "/*", "*/" ]
+        "blockComment": [ "#", "#" ]
     },
     // symbols used as brackets
     "brackets": [
-        ["{", "}"],
+        ["en-bråtæ-beståænes-av", "å-det-var-det"],
+        ["med", "å-det-var-det"],
+        ["i-orlboka", "å-det-var-det"],
+        ["i-bråtæn", "å-det-var-det"],
+        ["græbb-fra", "å-det-var-det"],
+        ["størlsen-a", "å-det-var-det"],
         ["e-orlbok-beståænes-av", "å-så-var-orlboka-færi"],
+        ["såm-gjør", "åså-varn-færi"],
         ["hællæ", "prekæs"]
     ],
     // symbols that are auto closed when typing
