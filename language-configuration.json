@@ -19,18 +19,19 @@
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [
-        ["{", "}"],
-        ["[", "]"],
-        ["(", ")"],
-        ["\"", "\""],
-        ["'", "'"]
+        {"open": "en-bråtæ-beståænes-av", "close":"å-det-var-det"},
+        {"open": "med", "close":"å-det-var-det"},
+        {"open": "i-orlboka", "close":"å-det-var-det"},
+        {"open": "i-bråtæn", "close":"å-det-var-det"},
+        {"open": "græbb-fra", "close":"å-det-var-det"},
+        {"open": "størlsen-a", "close":"å-det-var-det"},
+        {"open": "e-orlbok-beståænes-av", "close":"å-så-var-orlboka-færi"},
+        {"open": "såm-gjør", "close":"åså-varn-færi"},
+        {"open": "hællæ", "close":"prekæs"},
+        {"open":"\"", "close":"\"", "notIn": ["comment"]}
     ],
     // symbols that can be used to surround a selection
     "surroundingPairs": [
-        ["{", "}"],
-        ["[", "]"],
-        ["(", ")"],
-        ["\"", "\""],
-        ["'", "'"]
+        ["\"", "\""]
     ]
 }
