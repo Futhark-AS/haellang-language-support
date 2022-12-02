@@ -8,8 +8,8 @@
     // symbols used as brackets
     "brackets": [
         ["{", "}"],
-        ["[", "]"],
-        ["(", ")"]
+        ["e-orlbok-beståænes-av", "å-så-var-orlboka-færi"],
+        ["hællæ", "prekæs"]
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [

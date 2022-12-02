@@ -7,14 +7,22 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#constants-and-special-vars"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.haellang",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.haellang",
+					"match": "(?<!-)\\b(dersom-atter|så|ente-gjør-no|ellers|åsså-æru-ferdig|imens|ta-åsså-gjør|åsså-gjøru-det-igjen|gi-dæ)\\b"
+				}
+		]
 		},
 		"strings": {
 			"name": "string.quoted.double.haellang",
@@ -24,6 +32,49 @@
 				{
 					"name": "constant.character.escape.haellang",
 					"match": "\\\\."
+				}
+			]
+		},
+		"operators":
+        {
+            "patterns":
+            [
+                {
+                    "name": "keyword.operator.arithmetic.haellang",
+                    "match": "(plussær|minusær|gangær|delær|mådda-med)"
+                },
+                {
+                    "name": "keyword.operator.assignment.haellang",
+                    "match": "(ære-samma-som)"
+                },
+                {
+                    "name": "keyword.operator.comparison.haellang",
+                    "match": "småære-enn|mere-enn|er-prikk-lik"
+                }
+            ]
+        },
+		"constants-and-special-vars": {
+			"patterns": [
+				{
+					"name": "constant.numeric.haellang",
+					"match": "\\b(\\d+\\s+kåmma\\s+\\d+|\\d+)\\b"
+				},
+				{
+					"name": "constant.language.haellang",
+					"match": "(?<!\\$)\\b(klart-det|ente-rekti)\\b(?!\\$)"
+				}
+
+			]
+		},
+		"punctuation": {
+			"patterns": [
+				{
+					"name": "punctuation.comma.haellang",
+					"match": "å"
+				},
+				{
+					"name": "punctuation.terminator.haellang",
+					"match": "\\.|\\,"
 				}
 			]
 		}
