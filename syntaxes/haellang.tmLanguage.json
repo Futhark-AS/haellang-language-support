@@ -27,8 +27,12 @@
 				{
 					"name": "keyword.control.haellang",
 					"match": "(?<!-)\\b(dersom-atter|så|ente-gjør-no|ellers|åsså-æru-ferdig|imens|ta-åsså-gjør|åsså-gjøru-det-igjen|gi-dæ)\\b"
+				},
+				{
+					"name": "keyword.other.haellang",
+					"match": "(?<!-)\\b(spøtt-ut)\\b"
 				}
-		]
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.haellang",
@@ -69,13 +73,14 @@
 					"name": "constant.language.haellang",
 					"match": "(?<!\\$)\\b(klart-det|ente-rekti)\\b(?!\\$)"
 				}
-
 			]
 		},
 		"comments": {
 			"patterns": [
 				{
 					"name": "comment.block.haellang",
+					"begin": "\\#",
+					"end": "\\#",
 					"match": "\\#[^\\#]*\\#"
 				}
 			]
