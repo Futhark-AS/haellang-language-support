@@ -1,0 +1,125 @@
+{
+	"If": {
+		"prefix": "if",
+		"body": [
+			"dersom-atter", 
+            "   $1", 
+            "så", 
+            "   $2", 
+            "ellers så", 
+            "   $3", 
+            "åsså-æru-ferdig."
+		],
+		"description": "Dersom atter noe enten er rekti eller atter det er ille gæli"
+	},
+	"While": {
+		"prefix": "while",
+		"body": [
+			"imens", 
+            "   $1", 
+            "ta-åsså-gjør", 
+            "   $2", 
+            "åsså-gjøru-det-igjen."
+		],
+		"description": ""
+	},
+	"Function": {
+		"prefix": "def",
+		"body": [
+			"en-fungsjon såm-brukær $1 såm-gjør", 
+            "   $2", 
+            "åså-varn-færi."
+		],
+		"description": ""
+	},
+	"Dict": {
+		"prefix": "dict",
+		"body": [
+            "e-orlbok-beståænes-av",
+            "   $1",
+            "å-så-var-orlboka-færi."
+		],
+		"description": ""
+	},
+	"DictEntry": {
+		"prefix": "edict",
+		"body": [
+            "$1 betyænes $2 å",
+            "$3"
+		],
+		"description": ""
+	},
+	"List": {
+		"prefix": "list",
+		"body": [
+            "en-bråtæ-beståænes-av",
+            "   $1",
+            "å-det-var-det."
+		],
+		"description": ""
+	},
+	"ListEntry": {
+		"prefix": "elist",
+		"body": [
+            "$1 å",
+            "$3"
+		],
+		"description": ""
+	},
+	"Let": {
+		"prefix": "let",
+		"body": [
+			"$1 ære-samma-som $2."
+		],
+		"description": ""
+	},
+	"Import": {
+		"prefix": "import",
+		"body": [
+			"hent-ut-pytonslange-funksjon \"$1\" å-kallen-for $2 i-samma-slengen."
+		],
+		"description": ""
+	},
+	"Run Module Function": {
+		"prefix": "mrun",
+		"body": [
+			"kjør $1 dått $2 med $3 å-det-var-det"
+		],
+		"description": ""
+	},
+	"Run Function": {
+		"prefix": "run",
+		"body": [
+			"kjør $1 med $2 å-det-var-det"
+		],
+		"description": ""
+	},
+	"Pass": {
+		"prefix": "pass",
+		"body": [
+			"ente-gjør-no"
+		],
+		"description": ""
+	},
+	"Break": {
+		"prefix": "break",
+		"body": [
+			"gi-dæ."
+		],
+		"description": ""
+	},
+	"Return": {
+		"prefix": "return",
+		"body": [
+			"gi-tilbake $1."
+		],
+		"description": ""
+	},
+	"Print": {
+		"prefix": "print",
+		"body": [
+			"spøtt-ut $1."
+		],
+		"description": ""
+	}
+}

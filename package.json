@@ -7,7 +7,8 @@
     "vscode": "^1.73.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Snippets"
   ],
   "contributes": {
     "languages": [{
@@ -20,6 +21,12 @@
       "language": "haellang",
       "scopeName": "source.haellang",
       "path": "./syntaxes/haellang.tmLanguage.json"
-    }]
+    }],
+    "snippets": [
+      {
+        "language": "haellang",
+        "path": "./snippets.json"
+      }
+    ]
   }
 }
