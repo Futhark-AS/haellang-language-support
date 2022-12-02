@@ -31,6 +31,14 @@
 				{
 					"name": "keyword.other.haellang",
 					"match": "(?<!-)\\b(spøtt-ut)\\b"
+				},
+				{
+					"name": "keyword.function.haellang",
+					"match": "(?<!-)\\b(kjør|en-fungsjon|såm-brukær)\\b"
+				},
+				{
+					"name": "keyword.modlue.haellang",
+					"match": "(?<!-)\\b(hent-ut-pytonslange-funksjon|å-kallen-for|i-samma-slengen|dått)\\b"
 				}
 			]
 		},
