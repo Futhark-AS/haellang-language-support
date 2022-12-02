@@ -1,0 +1,25 @@
+{
+  "name": "haellang-language-support",
+  "displayName": "Haellang Language Support",
+  "description": "The official language extension for Haellang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "haellang",
+      "aliases": ["haellang", "haellang"],
+      "extensions": [".haellae"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "haellang",
+      "scopeName": "source.haellang",
+      "path": "./syntaxes/haellang.tmLanguage.json"
+    }]
+  }
+}
