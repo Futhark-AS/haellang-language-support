@@ -1,5 +1,6 @@
 {
   "name": "haellang-language-support",
+  "publisher": "futhark-as",
   "displayName": "Haellang Language Support",
   "description": "The official language extension for Haellang",
   "version": "0.0.1",
