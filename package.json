@@ -3,6 +3,10 @@
   "displayName": "Haellang Language Support",
   "description": "The official language extension for Haellang",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Futhark-AS/haellang-language-support.git"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
